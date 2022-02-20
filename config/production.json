@@ -1,0 +1,8 @@
+{
+  "payment": {
+    "merchantId": "G457847197",
+    "clientKey": "Mid-client-IivQnLiTVRKTxA63",
+    "serverKey": "Mid-server-gZkE1gnWtBilKpfMupJiFaCW",
+    "isProduction": true
+  }
+}

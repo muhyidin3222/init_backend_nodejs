@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bisa Ekspor</title>
+    <link rel="stylesheet" href="/assets/cssTempletePayment" />
+  </head>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
+
+  <script type="text/javascript">
+    function tsw_open_demo_window() {
+      window.open("finish");
+    }
+  </script>
+
+  <body class="container" onload="tsw_init_page_global()">
+    <img src="/assets/icon-invoice-error" />
+    <div class="title" style="color: red">Pembayaran Error</div>
+    <div class="text">
+      Maaf Pembayaran anda terdapat kesalahan, Mohon ulangi pembayaran anda
+      beberapa saat lagi
+    </div>
+
+    <!-- <div class="text text1">Kembali ke Aplikasi</div> -->
+
+    <div type="button" class="button" onclick="window.close();">
+      <a class="text-button"> Tutup Pembayaran</a>
+    </div>
+  </body>
+</html>

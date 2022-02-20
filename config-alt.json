@@ -1,0 +1,15 @@
+{
+    "development": {
+        "username": "developer",
+        "password": "bisaBillionaire",
+        "database": "bisaekspor_education",
+        "port": "3306",
+        "host": "localhost",
+        "dialect": "mysql",
+        "timezone": "+07:00",
+        "define": {
+            "timestamps": false,
+            "freezeTableName": true
+        }
+    }
+}
